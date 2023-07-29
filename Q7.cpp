@@ -1,0 +1,19 @@
+//Write a C++ program to check whether the integer entered by user is positive, negative or zero using nested if-else. 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter an integer: ";
+    cin >> num;
+
+    if (num > 0) {
+        cout << "Positive" << endl;
+    } else if (num < 0) {
+        cout << "Negative" << endl;
+    } else {
+        cout << "Zero" << endl;
+    }
+
+    return 0;
+}
